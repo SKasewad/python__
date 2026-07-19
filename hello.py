@@ -50,3 +50,21 @@
 # print('Hello World','Santoba','5', sep="//")
 # print ('Hello' , end="..")
 # print ('Santoba' ,end="!!")
+a = 34
+b = 2
+# This are the arithmatic operators
+print ("a + b =", a + b )
+print ("a - b =", a - b )
+print ("a / b =", a / b )
+print ("a * b =", a * b )
+print ("a % b =", a % b )
+print ("a // b =", a // b )
+
+#Comparison operators
+print( a>4) 
+print (a<4)
+print (a<=4)
+print(a>=4)
+print(a==34)
+ #logical operators
+
