@@ -53,18 +53,27 @@
 a = 34
 b = 2
 # This are the arithmatic operators
-print ("a + b =", a + b )
-print ("a - b =", a - b )
-print ("a / b =", a / b )
-print ("a * b =", a * b )
-print ("a % b =", a % b )
-print ("a // b =", a // b )
+# print ("a + b =", a + b )
+# print ("a - b =", a - b )
+# print ("a / b =", a / b )
+# print ("a * b =", a * b )
+# print ("a % b =", a % b )
+# print ("a // b =", a // b )
 
-#Comparison operators
-print( a>4) 
-print (a<4)
-print (a<=4)
-print(a>=4)
-print(a==34)
- #logical operators
+# #Comparison operators
+# print( a>4) 
+# print (a<4)
+# print (a<=4)
+# print(a>=4)
+# print(a==34)
 
+#logical operators
+
+# print( not (True ))
+# print( not (True ))
+# print( not (False ))
+# print( not (False ))
+
+a = 32
+a%=2
+print(a)
