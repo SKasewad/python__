@@ -44,3 +44,9 @@
 # b = int(b)
 # # sum = a + b
 # print(  a + b )
+
+# print ("How are you ? \n  \\new lineI am good")
+# print ("Hello \"")
+# print('Hello World','Santoba','5', sep="//")
+# print ('Hello' , end="..")
+# print ('Santoba' ,end="!!")
