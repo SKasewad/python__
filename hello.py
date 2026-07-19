@@ -38,7 +38,9 @@
 # print (a)
 # b = str(input("Enter Your Name:"))
 # print(b)
-a = int(input("Enter first Number:"))
-b = int(input("Enter second Number:"))
-# sum = a + b
-print(  a + b )
+# a = input("Enter first Number:")
+# b = input("Enter second Number:")
+# a = int(a)
+# b = int(b)
+# # sum = a + b
+# print(  a + b )
