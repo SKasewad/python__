@@ -1,11 +1,10 @@
-age = int (input("Enter your age: ")) 
-if(age>18):
-    print("You can drive")
-    print("THANK YOU!")
-elif(age == 18):
-    print("Lets schedule an interview")
-elif(age == 0):
-    print("Hey you just born")
-else:
-    print("You can not drive")
-    print("SORRY!")
+a = int(input("Enter a number between 1 to 10: "))
+match a:
+    case 1:
+        print("You won a 3$")
+    case 3:
+        print("You won a doll")
+    case 7:
+        print("You got a refrigerator")
+    case _:
+        print("Better Luck next time")
