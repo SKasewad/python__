@@ -1,5 +1,9 @@
-a = int(input("Enter your Number:"))
-
-
-print("The square is",a**2)
-print("The cube is",a**3)
+age = int (input("Enter your age: ")) 
+if(age>18):
+    print("You can drive")
+    print("THANK YOU!")
+elif(age == 18):
+    print("Lets schedule an interview")
+else:
+    print("You can not drive")
+    print("SORRY!")
