@@ -1,19 +1,23 @@
-# i = 2
-# while True:
-#     print(i)
-#     i = i + 1
-# for i in range(1,10):
-#     i = "Santoba"
-#     print(i)
-# for i in range(0,21):
-    
-#     if i == 11:
-    
-#         continue #Cancle the execution of this code
-#     print(i)
+num = int(input("Enter your number:"))
+if(num>0):
+    print("The given no is positive")
+elif(num<0):
+    print("The given no is negative ")
+elif(num == 0):
+    print("The given no is zero")
+else:
+    print("Imagenary")
 
-i = 32
-if i == 21:
-    pass #do nothing
-    print("End of the program ")
-print("End of the program ")
+
+age = int(input("Enter your age:"))
+if(age>=18):
+    print("Your eligible to vote")
+else:
+    print("Your not eligible")
+
+
+num = int(input("Enter your Number:"))
+if(num%2==0):
+    print("The no is even")
+else:
+    print("The no is odd")
