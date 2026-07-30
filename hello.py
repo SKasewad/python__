@@ -25,18 +25,18 @@
 
 num = int(input("Enter your Number:\n"))
 
-match num:
-    case 1:
-        print("Sunday")
-    case 2:
-        print("Saturday")
-    case 3:
-        print("Friday")
-    case 4:
-        print("Thursday")
-    case 5:
-        print("Wedneseday")
-    case 6:
-        print("Tuesday")
-    case 7:
-        print("Monday")
+# match num:
+#     case 1:
+#         print("Sunday")
+#     case 2:
+#         print("Saturday")
+#     case 3:
+#         print("Friday")
+#     case 4:
+#         print("Thursday")
+#     case 5:
+#         print("Wedneseday")
+#     case 6:
+#         print("Tuesday")
+#     case 7:
+#         print("Monday")
