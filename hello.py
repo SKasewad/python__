@@ -23,7 +23,7 @@
 #     print("The no is odd")
 
 
-num = int(input("Enter your Number:\n"))
+# num = int(input("Enter your Number:\n"))
 
 # match num:
 #     case 1:
@@ -40,3 +40,8 @@ num = int(input("Enter your Number:\n"))
 #         print("Tuesday")
 #     case 7:
 #         print("Monday")
+
+
+
+
+
