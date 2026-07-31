@@ -56,6 +56,33 @@
 #         print(num1/num2)
 
 
+# sum = 0
+# for i in range(1,101):
+    
+#     sum+= i
+
+# print(sum)
+
+# for i in range(1,21):
+#     print("*"*i)
+
+
+
+# sum = 0
+# i = 1
+# while i<=100:
+#     sum +=i
+#     i += 1
+# print(sum)
+
+
+
+password = "Santoba123"
+entered_password = input("Enter your password:")
+while entered_password != password:
+    entered_password = input("Wrong Password! Try again and enter password:")
+print("You sucessfully loged in ")
+
 
 
 
