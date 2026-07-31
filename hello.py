@@ -42,6 +42,27 @@
 #         print("Monday")
 
 
+# num1 = int(input("Enter first Number:"))
+# num2 = int(input("Enter second Number:"))
+# operation = input("Choose opration:")
+# match operation:
+#     case "+":
+#         print(num1+num2)
+#     case "-":
+#         print(num1-num2)
+#     case "*":
+#         print(num1*num2)
+#     case "/":
+#         print(num1/num2)
+
+
+
+
+
+
+
+
+
 
 
 
