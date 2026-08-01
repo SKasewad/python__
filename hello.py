@@ -115,11 +115,21 @@
 #             print(5) 
          
 
-name = """Santoba"""
-print(name[6:])
-# print(name[2:-3])
+# name = """Santoba"""
+# print(name[6:])
+# # print(name[2:-3])
 
 
+# name = "Santoba" #Strings are immutable
+# a = len(name)
+# print(a)
+
+
+name = "hello world"
+print(name.upper())
+print(name.lower())
+print(name.capitalize())
+print(name.title())
 
 
 
