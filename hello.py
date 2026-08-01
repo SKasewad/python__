@@ -77,11 +77,20 @@
 
 
 
-password = "Santoba123"
-entered_password = input("Enter your password:")
-while entered_password != password:
-    entered_password = input("Wrong Password! Try again and enter password:")
-print("You sucessfully loged in ")
+# password = "Santoba123"
+# entered_password = input("Enter your password:")
+# while entered_password != password:
+#     entered_password = input("Wrong Password! Try again and enter password:")
+# print("You sucessfully loged in ")
+
+
+for i in range (1,11):
+    if i == 8:
+        break
+    print(i)
+
+
+
 
 
 
