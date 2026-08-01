@@ -1,1 +1,1 @@
-sum = 0
+print(text.split(","))

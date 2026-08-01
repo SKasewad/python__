@@ -125,19 +125,43 @@
 # print(a)
 
 
-name = "hello world"
-print(name.upper())
-print(name.lower())
-print(name.capitalize())
-print(name.title())
+# name = "hello world"
+# print(name.upper())
+# print(name.lower())
+# print(name.capitalize())
+# print(name.title())
 
 
+# text = " hello world "
+# print(text.strip())
+# print(text.lstrip())
+# print(text.rstrip())
+
+# text = "Python is fun and fun and fun "
+# print(text.find("is"))
+# print(text.replace("fun","awesome"))
 
 
+# text = "Apples,Bananas,Pineapples"
+# print(text.split(","))
+# print(",".join(['Apples','Bananas','Pineapples']))
 
 
+# text = "python123"
+# print(text.isalpha())
+# print(text.isdigit())
+# print(text.isalnum())
+# print(text.isspace())
 
 
-
+template = "Dear {},You are awesome. Take this {}$ bag "
+a = "John"
+a1 = 10000
+b = "Jack"
+b1 = 1000
+c = "Marie"
+c2 = 300
+s1 = template.format(a,a1)
+print(s1)
 
 
