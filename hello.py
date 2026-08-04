@@ -165,7 +165,18 @@
 # print(s1)
 # print(f"{a} you are awesome, take this {b1}$ bag")
 
-name = "Santoba"
-print(name[0])
-print(name[-1])
-print(len(name))
+# name = "Santoba"
+# print(name[0])
+# print(name[-1])
+# print(len(name))
+
+
+# str1 = "Hello"
+# str2 = "World!"
+# print(str1,str2)
+
+text = "Python Programming"
+print(text[0:6])
+print(text[-6:])
+print(text[::2])
+print(text[::-1])
