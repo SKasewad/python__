@@ -165,3 +165,7 @@
 # print(s1)
 # print(f"{a} you are awesome, take this {b1}$ bag")
 
+name = "Santoba"
+print(name[0])
+print(name[-1])
+print(len(name))
