@@ -175,8 +175,18 @@
 # str2 = "World!"
 # print(str1,str2)
 
-text = "Python Programming"
-print(text[0:6])
-print(text[-6:])
-print(text[::2])
-print(text[::-1])
+# text = "Python Programming"
+# print(text[0:6])
+# print(text[-6:])
+# print(text[::2])
+# print(text[::-1])
+
+# text = " i love python programming "
+# print(text.strip())
+# print(text.title())
+# print(text.count("o"))
+# print(text.isalnum())
+
+
+str = "123abc"
+print(str.isalnum())
