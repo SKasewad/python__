@@ -188,5 +188,10 @@
 # print(text.isalnum())
 
 
-str = "123abc"
-print(str.isalnum())
+# str = "123abc"
+# print(str.isalnum())
+
+
+name = "John"
+age = 25
+print(" My name is {} and I am {} years old.".format(name,age))
