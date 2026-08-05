@@ -192,6 +192,15 @@
 # print(str.isalnum())
 
 
-name = "John"
-age = 25
-print(" My name is {} and I am {} years old.".format(name,age))
+# name = "John"
+# age = 25
+# print(" My name is {} and I am {} years old.".format(name,age))
+
+# name = "Santoba"
+# age = 20
+# print("My name is {} and I am {} years old.".format(name,age)) 
+
+sentence = "Coding in python is fun!"
+print(sentence.replace("fun","awesome"))
+print(sentence.find("python"))
+print(sentence.upper())
