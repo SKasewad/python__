@@ -201,6 +201,9 @@
 # print("My name is {} and I am {} years old.".format(name,age)) 
 
 sentence = "Coding in python is fun!"
-print(sentence.replace("fun","awesome"))
-print(sentence.find("python"))
-print(sentence.upper())
+sum  = 0
+vowels = ['a','u','o','i','u']
+for char in sentence.lower():
+    if(char in vowels):
+        sum += 1
+print(f"There are {sum} vowels in the sentence.")
