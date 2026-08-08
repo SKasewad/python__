@@ -1,1 +1,1 @@
-print(text.split(","))
+print(d)

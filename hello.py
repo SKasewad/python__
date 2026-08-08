@@ -1,11 +1,9 @@
-a = 3
-b = 4
-c = 3
-average = (a+b+c)/3
-print(average)
+def average(a,b,c):
+    d = (a + b + c)/3
+    # print(d)
+    return d
 
-a1 = 7
-b2 = 5
-c3 = 2
-average1 = (a1+b2+c3)/3
-print(average1)
+f1=average(3,2,5)
+f2=average(3,4,7)
+print(f1)
+print(f2)
