@@ -1,5 +1,11 @@
-name = "Santoba Kasewad"
-age = 20
-college = "D.Y.Patil.College of engineering and technology"
+a = 3
+b = 4
+c = 3
+average = (a+b+c)/3
+print(average)
 
-print("I am {}. I am just {} years old and I am glad to say that I am currently studying at {}".format(name,age,college))
+a1 = 7
+b2 = 5
+c3 = 2
+average1 = (a1+b2+c3)/3
+print(average1)
