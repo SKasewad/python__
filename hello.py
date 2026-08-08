@@ -200,10 +200,18 @@
 # age = 20
 # print("My name is {} and I am {} years old.".format(name,age)) 
 
-sentence = "Coding in python is fun!"
-sum  = 0
-vowels = ['a','u','o','i','u']
-for char in sentence.lower():
-    if(char in vowels):
-        sum += 1
-print(f"There are {sum} vowels in the sentence.")
+# sentence = "Coding in python is fun!"
+# sum  = 0
+# vowels = ['a','u','o','i','u']
+# for char in sentence.lower():
+#     if(char in vowels):
+#         sum += 1
+# print(f"There are {sum} vowels in the sentence.")
+
+
+str1 = "madamd"
+
+if(str1 == str1[::-1]):
+    print("The string is palindrome.")
+else:
+    print("The string is not an palindome.")
