@@ -1,50 +1,15 @@
-# def add(a,b,plus=0):
-#     x = a+b
-#     return x
-# c = add(3,4,2)
-# c1 = add(b=5,a=9)
-# print(c)
-# print(c1)
+''' 1  0 1 1 2 3 5 8 13
 
+ fib(0) = 0
+ fib(1) = 1
+ fib(2) = fib(0) + fib(1)
+ fib(3) = fib(1) + fib(2)
+ fib(4) = fib(2) + fib(3)
+ fib(n) = fib(n-2) + fib(n-1)
+''' 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-square = lambda x : x*x
-sum = lambda x,y: x+y
-print(square(3))
-print(sum(34,43))
-
-
-
-
-
-
-
-
-
-
-
-# def add(a,b):
-#     a = a+b
-#     return a
-# a = add(3,2)
-# a1 = add(b=11,a=33)
-# print(a)
-# print(a1)
+def fib(n):
+    if(n==0 or n==1):
+        return n
+    return fib(n-2) + fib(n-1)
+print(fib(2))~
