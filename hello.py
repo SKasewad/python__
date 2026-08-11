@@ -1,7 +1,10 @@
-import math
-print(math.sqrt(16))
-import skmodule
-import requests
-print(skmodule.hello("Chutiye"))
-r = requests.get("https://www.google.com")
-print(r.text)
+def sum(a,b):
+    #a&b are the local variable..
+    c = a+b
+    print(z)
+    return c
+    
+
+z = 8 #z is a global variable
+print(sum(9,10))
+    
