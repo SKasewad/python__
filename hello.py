@@ -1,5 +1,9 @@
-def sum(a,b):
-    '''This will sum two numbers'''
-    c = a + b
-    return c 
-print(sum.__doc__)
+def square(x):
+    return x*x
+print(square(3))
+
+
+def full_name(first,last):
+    return f"{first} {last}"
+print(full_name("Santoba","Kasewad"))
+
