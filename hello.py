@@ -1,8 +1,10 @@
-marks = [23,34,76,89]
-mixed = [3.14, "Hello", False,43]
-marks.append(63)
-mixed.append(54)
-marks.extend(mixed)
-print(marks)
-print(mixed)
-print(marks[3])
+#create a list containing a table of 5
+a = 5
+
+table = []
+
+for i in range(1,11):
+
+    table.append(5*i)
+    
+print(table)
