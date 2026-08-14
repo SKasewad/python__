@@ -1,7 +1,2 @@
-marks = {"Santoba":34,"Gayatri":43, "Suraj":55,"Aditya":29}
-print(marks,type(marks))
-print(marks["Santoba"])
-marks["Santoba"] = 23
-print(marks)
-print(marks.keys())
-print(marks.values())
+table_of_5 = {i: 5*i for i in range(1,11)}
+print(table_of_5)
